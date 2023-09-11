@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+/* MAIN CONTENT*/
+.row {
+    background: darkgray;
+    width: 85%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 55px 0px 0px 85px;
+    padding: 5px 5px 5px 5x;
+    border: 1px;
+    border-radius: 5px;
+}
+
+/*MY IMG*/
+.col-1 {
+    width: 500px;
+    height: 400px;
+    margin: 3px 0px 3px 3px;
+}
+
+.img {
+    width: 550px;
+    height: 495px;
+    border-radius: 5px;
+}
+
+/*MY ATTRIBUTES*/
+.col-2 {
+    width: 500px;
+    height: 400px;
+    padding: 50px 0px 0px 150px;
+    line-height: 50px;
+}
+
+#name {
+    font-size: 20px;
+}
+
+#track {
+    font-size: 20px;
+}
+
+button {
+    background-color: black;
+    font-size: 30px;
+    color: blanchedalmond;
+    border: 1px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
